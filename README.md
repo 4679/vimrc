@@ -3,5 +3,10 @@
 
 请务必用心体会
 
+安装方法
+
+```bash
+curl https://raw.githubusercontent.com/4679/vimrc/master/vimrc > ~/.vimrc
+```
 
 https://4679.space/vimrc
