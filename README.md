@@ -1,7 +1,7 @@
 # [vimrc][ID_VIMRC]
 这次我是认真的😄 绝不坑爹
 
-Installation
+# Installation
 ```bash
 git clone https://github.com/4679/vimrc
 mv ~/.vim ~/.vim.bak
