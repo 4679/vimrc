@@ -4,11 +4,11 @@
 Installation
 ```bash
 git clone https://github.com/4679/vimrc
-mv ~/.vimrc ~/.vimrc.bak
 mv ~/.vim ~/.vim.bak
+mv ~/.vimrc ~/.vimrc.bak
 mv vimrc/.vimrc ~/.vimrc
-mv vimrc/.vim ~/.vim
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+vim +PluginInstall +qall
 ```
-
 [ID_VIMRC]: https://4679.space/vimrc "RT"
 
