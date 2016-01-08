@@ -5,4 +5,4 @@ mv ~/.vimrc ~/.vimrc.bak
 mv vimrc/.vimrc ~/.vimrc
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
-rm -r vimrc
+rm -rf vimrc
