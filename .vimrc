@@ -13,6 +13,8 @@ Plugin 'bling/vim-airline'
 Plugin 'godlygeek/tabular'
 Plugin 'luochen1990/rainbow'
 Plugin 'plasticboy/vim-markdown'
+Plugin 'xolox/vim-misc'
+Plugin 'xolox/vim-lua-inspect'
 
 " plugin from http://vim-scripts.org/vim/scripts.html
 Bundle 'AutoClose'
