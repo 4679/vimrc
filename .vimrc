@@ -35,7 +35,6 @@ let g:airline_powerline_fonts = 1
 " Others
 let g:rainbow_active = 1
 set laststatus=2
-set ts=1
 set fileformats=unix,dos
 set nowrap
 set nobackup
