@@ -39,3 +39,7 @@ set fileformats=unix,dos
 set nowrap
 set nobackup
 set nu
+set ts=4
+set sw=4
+set expandtab
+set autoindent
