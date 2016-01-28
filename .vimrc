@@ -8,14 +8,13 @@ Plugin 'VundleVim/Vundle.vim'
 
 " plugin on GitHub repo
 Plugin 'altercation/vim-colors-solarized'
-Plugin 'chriskempson/vim-tomorrow-theme'
 Plugin 'bling/vim-airline'
 Plugin 'godlygeek/tabular'
 Plugin 'luochen1990/rainbow'
 Plugin 'plasticboy/vim-markdown'
+Plugin 'Raimondi/delimitMate'
 
 " plugin from http://vim-scripts.org/vim/scripts.html
-Bundle 'AutoClose'
 
 call vundle#end()
 filetype plugin indent on
@@ -26,11 +25,8 @@ filetype plugin indent on
 set background=dark
 colorscheme solarized
 let g:solarized_termcolors=256
-let g:airline_powerline_fonts = 1
+" let g:airline_powerline_fonts = 1
 
-" Tomorrow
-" colorscheme Tomorrow-Night-Eighties
-" set background=dark
 
 " Others
 let g:rainbow_active = 1
@@ -43,3 +39,5 @@ set ts=4
 set sw=4
 set expandtab
 set autoindent
+set pastetoggle=<f3>
+au FileType python let b:delimitMate_nesting_quotes = ['"']
