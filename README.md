@@ -4,7 +4,6 @@
 # Installation
 ```bash
 sh -c "$(curl -fsSL https://git.io/vu10G)"
-会报个错 回车就行
 ```
 [ID_VIMRC]: https://4679.space/vimrc "RT"
 
