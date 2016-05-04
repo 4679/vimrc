@@ -6,6 +6,7 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'altercation/vim-colors-solarized'
 Plug 'bling/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'godlygeek/tabular'
 Plug 'luochen1990/rainbow'
 Plug 'plasticboy/vim-markdown'
