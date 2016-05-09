@@ -19,6 +19,7 @@ set background=dark
 " colorscheme solarized
 let g:solarized_termcolors=256
 " let g:airline_powerline_fonts = 1
+" autocmd VimEnter * AirlineTheme solarized
 
 
 " Others
@@ -28,8 +29,8 @@ set fileformats=unix,dos
 set nowrap
 set nobackup
 set nu
-set ts=4
-set sw=4
+set ts=2
+set sw=2
 set expandtab
 set autoindent
 set pastetoggle=<f3>
