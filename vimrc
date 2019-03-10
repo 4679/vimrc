@@ -4,20 +4,22 @@ syntax enable
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'bling/vim-airline'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'godlygeek/tabular'
 Plug 'luochen1990/rainbow'
 Plug 'plasticboy/vim-markdown'
 Plug 'Raimondi/delimitMate'
-Plug 'arcticicestudio/nord-vim'
+Plug 'altercation/vim-colors-solarized'
 
 call plug#end()
 
-" Nord
+" Solarized Dark
 set background=dark
-" colorscheme nord
+" colorscheme solarized
+let g:solarized_termcolors=256
 " let g:airline_powerline_fonts = 1
-" autocmd VimEnter * AirlineTheme nord
+" autocmd VimEnter * AirlineTheme solarized
 
 
 
