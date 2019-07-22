@@ -7,3 +7,5 @@
 ```bash
 sh -c "$(curl -fsSL https://git.io/vim4679)"
 ```
+
+[ID_VIMRC]: https://libnull.com/vimrc "RT"
