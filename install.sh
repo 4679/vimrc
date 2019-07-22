@@ -12,7 +12,6 @@ curl -fsLo ~/.vimrc https://raw.githubusercontent.com/4679/vimrc/master/vimrc
 vim +PlugInstall
 
 sed -i '/colorscheme/s/^" //' ~/.vimrc
-sed -i '/autocmd/s/^" //' ~/.vimrc
 
 read -p "是否安装了Powerline字体?[y/n]:" is
 if [ $is = "y" ]; then

@@ -17,12 +17,9 @@ call plug#end()
 " Solarized Dark
 set background=dark
 " colorscheme solarized
-let g:solarized_termcolors=256
+let g:airline_theme='solarized'
 let g:airline_solarized_bg='dark'
 " let g:airline_powerline_fonts = 1
-" autocmd VimEnter * AirlineTheme solarized
-
-
 
 " Others
 let g:rainbow_active = 1
